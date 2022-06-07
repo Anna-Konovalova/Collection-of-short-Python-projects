@@ -1,4 +1,4 @@
-# Collection-of-small-Python-projects
+# Collection-of-short-Python-projects
 
 ### Contents:
 #### 1) guess_a_number.py
