@@ -6,7 +6,7 @@ word1 = input("Enter your first word: ").lower()
 word2 = input("Enter your second word: ").lower()
 words = [word1, word2]
 characters = [".", ",", "!", "?", "-", "+", "_", ":", "(", ")", "[", "]", "{", "}", "@", "%", "#", "^"]
-numbers = range(11)
+numbers = [str(num) for num in range(10)]
 
 password_contents = []
 password = ""
@@ -21,7 +21,13 @@ for i in words:
     else:
         password_contents = [i, changed_word]
 
-password_contents = password_contents + [random.choice(characters)] + [str(random.choice(numbers))]
+num_of_chars = random.choice(range(1, 3))
+characters = random.sample(characters, num_of_chars)
+
+num_of_numbers = random.choice(range(1, 5))
+numbers = random.sample(numbers, num_of_numbers)
+
+password_contents = password_contents + characters + numbers
 
 def generate_password():
     random.shuffle(password_contents)
