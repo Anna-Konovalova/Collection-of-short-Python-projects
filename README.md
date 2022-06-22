@@ -7,3 +7,5 @@ A game in which you try to guess a number from 0 to 100
 A game in which you think of a number from 0 to 100 and computer tries to guess it
 #### 3) password_generator.py
 A programme that creates a password
+#### 4) calculator.py
+A simple calculator that performs basic maths operations
