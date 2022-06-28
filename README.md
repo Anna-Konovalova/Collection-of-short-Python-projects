@@ -13,3 +13,5 @@ A simple calculator that performs basic maths operations
 A programme for downloading YouTube videos 
 #### 6) wikipedia_article_generator.py
 A programme generating random wikipedia articles
+#### 7) qr_code_generator.py
+A programme for generating a QR code for a website link
